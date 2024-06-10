@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(197, 197, 197);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    background-color: #393f45;
+}
+
+footer {
+    background-color: #393f45;
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.navbar-brand {
+    padding-left: 15px; 
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+#about .sidebar {
+    border-left: 2.5px solid #343a40;
+}
+
+#title {
+    color: blue;
+}
+
+#about {
+    margin-bottom: 15%;
+}
+
+#accordion {
+    margin-bottom: 55%;
+    padding-bottom: 30%;
+}
+
+#contact{
+    margin-bottom: 35%;
+    padding-bottom: 20%;
+}
+
+.container {
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    flex-shrink: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+.btn.btn-primary{
+    background-color: blue;
+}
+
+.btn.btn-primary:hover{
+    color:aqua;
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+.sidebar ul li {
+    margin-bottom: 5px; /* Add space between list items if needed */
+}
